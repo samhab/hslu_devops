@@ -14,7 +14,7 @@ jobs:
         with:
           service_account: "1031766840445-compute@developer.gserviceaccount.com"
           project_id: "devops-team-1-430317"
-          workload_identity_provider: "projects/1031766840445/locations/global/workloadIdentityPools/github/providers/my-repo"
+          workload_identity_provider: "projects/1031766840445/locations/global/workloadIdentityPools/github/providers/my-repo-3"
       - name: Test gcloud
         run: gcloud projects list
       - name: check project
